@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
-   <groupId>com.cucumber.project</groupId>
-   <artifactId>cucumber-java</artifactId>
-   <version>0.0.1</version>
+   <groupId>com.automation.api.project</groupId>
+   <artifactId>api-automation-project</artifactId>
+   <version>1.0.0</version>
    <packaging>jar</packaging>
    <properties>
       <java.version>1.8</java.version>
@@ -15,16 +15,9 @@
       <jakson.version>2.9.8</jakson.version>
       <google.guava.version>16.0.1</google.guava.version>
       <spring.version>5.0.3.RELEASE</spring.version>
-      <spring.boot.test.version>2.1.3.RELEASE</spring.boot.test.version>
-      <kafka.client.version>2.1.0</kafka.client.version>
       <apache.common.version>3.8.1</apache.common.version>
    </properties>
    <dependencies>
-      <dependency>
-         <groupId>org.apache.kafka</groupId>
-         <artifactId>kafka-clients</artifactId>
-         <version>${kafka.client.version}</version>
-      </dependency>
       <dependency>
          <groupId>org.springframework</groupId>
          <artifactId>spring-context</artifactId>

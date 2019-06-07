@@ -1,15 +1,15 @@
-package com.mycom.pa.spm.api.common;
+package com.test.automation.api.common;
 
 public enum AppConstants {
 	PROPERTY_FILE_PATH("src/test/resources"), PROPERTY_FILE_NAME("application");
 	
-	private String value;
-	private AppConstants(String value) {
+	private Object value;
+	private AppConstants(Object value) {
 		this.value = value;
 	}
 	
 	@Override
 	public String toString() {
-		return value;
+		return this.value.toString();
 	}
 }

@@ -1,4 +1,4 @@
-package com.mycom.pa.spm.api.common;
+package com.test.automation.api.common;
 
 import java.io.File;
 import java.io.FileInputStream;
